@@ -54,12 +54,13 @@ Then open the URL printed in your terminal.
 
 ## Deploy to GitHub Pages
 
-This repository includes a workflow at `.github/workflows/deploy-pages.yml`.
+This repository includes a workflow at `.github/workflows/deploy-pages.yml` that publishes to the `gh-pages` branch.
 
 1. Push to `main`.
 2. In GitHub, open Settings -> Pages.
-3. Under Build and deployment, set Source to `GitHub Actions`.
-4. The `Deploy static site to GitHub Pages` workflow will publish this repo root.
+3. Under Build and deployment, set Source to `Deploy from a branch`.
+4. Select branch `gh-pages` and folder `/(root)`.
+5. The `Deploy static site to GitHub Pages` workflow will update `gh-pages` on each push to `main`.
 
 Your site URL will be:
 
