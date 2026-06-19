@@ -298,6 +298,18 @@ h1 span {
   background: rgba(5, 16, 31, 0.65);
 }
 
+.ai-link {
+  display: inline-block;
+  margin-bottom: 0.24rem;
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+.ai-link:hover {
+  text-decoration: underline;
+}
+
 .lock-icon {
   display: inline-block;
   padding: 0.22rem 0.44rem;
@@ -318,8 +330,7 @@ h1 span {
 
 .identity-grid,
 .timeline-grid,
-.portfolio-grid,
-.services-grid {
+.portfolio-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 0.95rem;
@@ -403,8 +414,7 @@ h1 span {
   .bio-grid,
   .identity-grid,
   .timeline-grid,
-  .portfolio-grid,
-  .services-grid {
+  .portfolio-grid {
     grid-template-columns: 1fr;
   }
 

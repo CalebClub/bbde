@@ -15,7 +15,6 @@ Production-ready static multi-page website for deployment on Netlify.
 |-- index.html
 |-- netlify.toml
 |-- portfolio.html
-|-- services.html
 |-- staff.html
 |-- style.css
 |-- script.js
@@ -59,7 +58,6 @@ Then open the URL printed in your terminal.
 	- `index.html`
 2. Update social/contact links:
 	- `index.html`
-	- `services.html`
 	- footer links on all pages
 3. Update staff resume details:
 	- `staff.html`
@@ -71,6 +69,7 @@ Then open the URL printed in your terminal.
 ## Notes
 
 - The small AI lock label text has been set to exactly: `password needed (CAI)`.
+- The CAI label links to: `https://nexus-coder-4.preview.emergentagent.com/`.
 - The script keeps the passphrase check as `FISHERTHECAT` for the local demo widget.
 - Your provided images are wired as:
   - `assets/images/profile.jpg`
