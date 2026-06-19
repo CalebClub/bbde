@@ -1,6 +1,6 @@
 # builtbyduke.de
 
-Production-ready static multi-page website for deployment on Netlify.
+Production-ready static multi-page website for deployment on GitHub Pages.
 
 ## Tech Stack
 
@@ -51,6 +51,21 @@ Then open the URL printed in your terminal.
 6. Deploy.
 
 `netlify.toml` is already included and production-ready for this static setup.
+
+## Deploy to GitHub Pages
+
+This repository includes a workflow at `.github/workflows/deploy-pages.yml`.
+
+1. Push to `main`.
+2. In GitHub, open Settings -> Pages.
+3. Under Build and deployment, set Source to `GitHub Actions`.
+4. The `Deploy static site to GitHub Pages` workflow will publish this repo root.
+
+Your site URL will be:
+
+- `https://calebclub.github.io/bbde/` (project pages)
+
+Since this site uses relative paths (for `index.html`, `staff.html`, `portfolio.html`, CSS, JS, and assets), all pages work correctly under the repository subpath.
 
 ## Customize Content Quickly
 
